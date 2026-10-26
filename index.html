@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#164b35">
+  <meta name="description" content="Hongyi Cen at Zhejiang University. Research on NLP, large language models, misinformation generation, and misinformation detection.">
+  <title>Hongyi Cen — Language, Models & Misinformation</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#about">Skip to content</a>
+  <div class="page">
+    <header>
+      <div class="topline"><span>A PERSONAL RESEARCH HOMEPAGE</span><span>HANGZHOU, CHINA</span></div>
+      <nav aria-label="Main navigation"><a href="#about">About me</a><span>✳</span><a href="#research">Research</a><span>✳</span><a href="#contact">Say hello</a></nav>
+    </header>
+    <main>
+      <section class="hero" aria-labelledby="name">
+        <p class="welcome">Welcome to the homepage of</p>
+        <h1 id="name">Hongyi Cen<span class="title-star" aria-hidden="true">✳</span></h1>
+        <p class="subtitle">Language. Models. <em>Misinformation.</em></p>
+        <div class="hero-collage">
+          <div class="side-note left-note">Working on<br>claims, evidence<br>& everything<br>in between.<span aria-hidden="true">↘</span></div>
+          <figure class="portrait"><img src="https://avatars.githubusercontent.com/u/86009442?v=4" alt="Hongyi Cen's GitHub profile avatar" width="248" height="248"><figcaption>HELLO, INTERNET. <span aria-hidden="true">☺</span></figcaption></figure>
+          <div class="side-note right-note"><span class="seal">NLP<br><small>& LLMs</small></span><p>Handle claims<br>with care.</p></div>
+        </div>
+        <p class="hero-statement">A convincing sentence<br>isn't always a <span>true one.</span></p>
+        <p class="hero-description">I study how language models generate, rewrite, and detect misinformation — and how to evaluate these behaviors reliably.</p>
+        <a class="big-button" href="#research">TAKE A LOOK AT MY RESEARCH <span aria-hidden="true">↓</span></a>
+        <p class="button-note">No donations needed. Just a little curiosity.</p>
+      </section>
+
+      <div class="ticker" aria-label="Research interests"><span>NATURAL LANGUAGE PROCESSING</span><i aria-hidden="true">✳</i><span>LARGE LANGUAGE MODELS</span><i aria-hidden="true">✳</i><span>MISINFORMATION</span></div>
+
+      <section id="about" class="about">
+        <p class="eyebrow">A LITTLE BACKGROUND</p>
+        <h2>Hi, I'm Hongyi.</h2>
+        <p>I'm at <strong>Zhejiang University</strong>, in the <strong>CADIDG group</strong> of the <strong>CAD Lab</strong>, advised by <strong>Prof. Yingcai Wu</strong>.</p>
+        <p>My research interests lie in natural language processing and large language models, with a focus on misinformation generation, misinformation detection, and fact verification.</p>
+        <p class="highlight-note">The question that keeps me curious: how do we tell whether a model is getting better — or just getting better at fooling the test?</p>
+      </section>
+
+      <section id="research" class="research">
+        <div class="section-heading"><div><p class="eyebrow">PAPERS & ONGOING WORK</p><h2>Follow the evidence.</h2></div><span class="year">2026</span></div>
+        <article class="paper">
+          <div class="paper-meta"><span>01 / PREPRINT</span><span class="tag">PUBLICLY AVAILABLE</span></div>
+          <h3><a href="https://arxiv.org/abs/2604.07967">AtomEval: Validity-Aware Atomic Evaluation of Adversarial Claim Rewriting in Fact Verification</a></h3>
+          <p class="authors"><strong>Hongyi Cen</strong>, Mingxin Wang, Yule Liu, Jingyi Zheng, Hanze Jia, Tan Tang</p>
+          <p class="paper-question">Did it fool the verifier,<br>or did it change the claim?</p>
+          <p class="paper-summary">AtomEval checks whether adversarial rewrites preserve the original false proposition, separating valid verifier evasion from proposition-changing rewrites.</p>
+          <div class="claim-diagram" role="img" aria-label="An adversarial rewrite must satisfy both proposition preservation and verifier evasion to count as a valid success."><span>Original claim</span><b aria-hidden="true">→</b><span>Adversarial rewrite</span><b aria-hidden="true">→</b><span class="gate">Preserved?<br><small>THEN CHECK EVASION</small></span></div>
+          <div class="paper-links"><a class="paper-button" href="https://arxiv.org/abs/2604.07967">Read the paper ↗</a><a href="https://arxiv.org/pdf/2604.07967">PDF ↗</a><button id="bib-toggle" type="button" aria-expanded="false" aria-controls="bibtex">BibTeX +</button></div>
+          <div id="bibtex" hidden><pre><code>@misc{cen2026atomeval,
+  title={AtomEval: Validity-Aware Atomic Evaluation of Adversarial Claim Rewriting in Fact Verification},
+  author={Hongyi Cen and Mingxin Wang and Yule Liu and Jingyi Zheng and Hanze Jia and Tan Tang},
+  year={2026},
+  eprint={2604.07967},
+  archivePrefix={arXiv},
+  primaryClass={cs.CL},
+  url={https://arxiv.org/abs/2604.07967}
+}</code></pre><button id="copy-bib" type="button">Copy citation</button><span id="copy-status" role="status"></span></div>
+        </article>
+        <article class="upcoming"><div><p class="eyebrow">02 / MANUSCRIPT SUBMITTED</p><h3>Another piece of the puzzle.</h3><p>A second research project. More details when the work is public.</p></div><span class="coming">STAY<br>TUNED <span aria-hidden="true">↗</span></span></article>
+      </section>
+
+      <section id="contact" class="contact"><span class="contact-star" aria-hidden="true">✳</span><p class="eyebrow">THE INTERNET IS A SMALL PLACE</p><h2>Let's compare notes.</h2><p>Interested in NLP, LLMs, or misinformation research?<br>Find me on GitHub.</p><a class="big-button" href="https://github.com/JinanRex">SAY HELLO ON GITHUB ↗</a></section>
+    </main>
+    <footer><div><strong>Hongyi Cen</strong><span>Zhejiang University · CAD Lab · CADIDG</span></div><p>Made with curiosity & a soft spot for the old web.<br><span>A personal homepage. Not an official university website.</span></p><a href="#name">Back to top ↑</a></footer>
+  </div>
+</body>
+</html>
