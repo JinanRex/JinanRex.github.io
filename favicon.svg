@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" rx="10" fill="#164b35"/><text x="32" y="47" text-anchor="middle" fill="#f8e679" font-family="Georgia,serif" font-size="46">H</text></svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Hongyi Cen monogram">
+  <rect width="64" height="64" rx="12" fill="#2457e6"/>
+  <path d="M13 17h8v12h10V17h8v30h-8V36H21v11h-8z" fill="#ffffff"/>
+  <circle cx="49" cy="45" r="5" fill="#d9f36a"/>
+</svg>

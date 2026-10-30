@@ -3,57 +3,135 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#164b35">
-  <meta name="description" content="Hongyi Cen at Zhejiang University. Research on NLP, large language models, misinformation generation, and misinformation detection.">
-  <title>Hongyi Cen — Language, Models & Misinformation</title>
+  <meta name="theme-color" content="#f5f6f2">
+  <meta name="description" content="Hongyi Cen is a Ph.D. candidate at Zhejiang University researching social media information integrity, misinformation, trustworthy NLP, and multilingual RAG security.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Hongyi Cen — Social Media Information Integrity">
+  <meta property="og:description" content="Research on misinformation, information integrity, and trustworthy language technologies for the social web.">
+  <meta name="twitter:card" content="summary">
+  <title>Hongyi Cen — Social Media Information Integrity</title>
   <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <script src="script.js" defer></script>
 </head>
 <body>
-  <a class="skip" href="#about">Skip to content</a>
-  <div class="page">
-    <header>
-      <div class="topline"><span>A PERSONAL RESEARCH HOMEPAGE</span><span>HANGZHOU, CHINA</span></div>
-      <nav aria-label="Main navigation"><a href="#about">About me</a><span>✳</span><a href="#research">Research</a><span>✳</span><a href="#contact">Say hello</a></nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="#top" aria-label="Hongyi Cen, home"><span class="wordmark-mark">HC</span><span>HONGYI CEN</span></a>
+      <nav class="main-nav" aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#research">Research</a>
+        <a href="#publications">Publications</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-link" href="https://github.com/JinanRex" target="_blank" rel="noreferrer">GitHub <span aria-hidden="true">↗</span></a>
     </header>
-    <main>
-      <section class="hero" aria-labelledby="name">
-        <p class="welcome">Welcome to the homepage of</p>
-        <h1 id="name">Hongyi Cen<span class="title-star" aria-hidden="true">✳</span></h1>
-        <p class="subtitle">Language. Models. <em>Misinformation.</em></p>
-        <div class="hero-collage">
-          <div class="side-note left-note">Working on<br>claims, evidence<br>& everything<br>in between.<span aria-hidden="true">↘</span></div>
-          <figure class="portrait"><img src="https://avatars.githubusercontent.com/u/86009442?v=4" alt="Hongyi Cen's GitHub profile avatar" width="248" height="248"><figcaption>HELLO, INTERNET. <span aria-hidden="true">☺</span></figcaption></figure>
-          <div class="side-note right-note"><span class="seal">NLP<br><small>& LLMs</small></span><p>Handle claims<br>with care.</p></div>
+
+    <main id="main">
+      <section class="hero" id="top" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="status-dot"></span> RESEARCHER · ZHEJIANG UNIVERSITY · HANGZHOU</p>
+          <h1 id="hero-title">Information integrity<br>on the <span class="accent-word">social web.</span></h1>
+          <p class="hero-lede">I study misinformation, content safety, and trustworthy language technologies in online information environments — from claim rewriting and fact verification to multilingual retrieval and evidence integrity.</p>
+          <div class="interest-tags" aria-label="Research interests">
+            <span>Social Media Information Integrity</span>
+            <span>Misinformation & Fact-checking</span>
+            <span>Trustworthy NLP</span>
+            <span>Multilingual RAG Security</span>
+          </div>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#research">Explore research <span aria-hidden="true">↓</span></a>
+            <a class="text-link" href="https://github.com/JinanRex" target="_blank" rel="noreferrer">GitHub profile <span aria-hidden="true">↗</span></a>
+          </div>
         </div>
-        <p class="hero-statement">A convincing sentence<br>isn't always a <span>true one.</span></p>
-        <p class="hero-description">I study how language models generate, rewrite, and detect misinformation — and how to evaluate these behaviors reliably.</p>
-        <a class="big-button" href="#research">TAKE A LOOK AT MY RESEARCH <span aria-hidden="true">↓</span></a>
-        <p class="button-note">No donations needed. Just a little curiosity.</p>
+
+        <div class="web-visual" aria-label="Illustration of information moving through a social web" role="img">
+          <div class="browser-bar">
+            <div class="window-dots"><i></i><i></i><i></i></div>
+            <span class="browser-address"><span class="lock-icon">⌑</span> social-web / information-flow</span>
+            <span class="browser-menu">•••</span>
+          </div>
+          <div class="visual-body">
+            <div class="visual-kicker"><span>LIVE SYSTEM MAP</span><span>01 — 03</span></div>
+            <div class="feed-card">
+              <div class="feed-top"><span class="avatar avatar-a">P</span><span><b>PUBLIC POST</b><small>Claim enters the feed</small></span><span class="feed-time">NOW</span></div>
+              <p class="feed-claim">A claim is not<br><em>the same as evidence.</em></p>
+              <div class="feed-metrics"><span>CONTEXT <b>?</b></span><span>SOURCE <b>?</b></span><span>CLAIM <b>01</b></span></div>
+            </div>
+            <div class="flow-line"><span></span><i></i><span></span></div>
+            <div class="flow-nodes">
+              <div class="flow-node"><span class="node-icon">↗</span><b>DISCOVER</b><small>retrieval</small></div>
+              <div class="flow-node active"><span class="node-icon">⌕</span><b>VERIFY</b><small>evidence</small></div>
+              <div class="flow-node"><span class="node-icon">◎</span><b>ASSESS</b><small>integrity</small></div>
+            </div>
+            <div class="visual-foot"><span>TRACE THE INFORMATION</span><span class="visual-signal"><i></i> SIGNAL / NOISE</span></div>
+          </div>
+          <span class="visual-index">FIG. 01 / THE INFORMATION LIFECYCLE</span>
+        </div>
+        <div class="hero-bottom"><span>RESEARCHING THE QUALITY OF ONLINE INFORMATION</span><span>SCROLL TO EXPLORE ↓</span></div>
       </section>
 
-      <div class="ticker" aria-label="Research interests"><span>NATURAL LANGUAGE PROCESSING</span><i aria-hidden="true">✳</i><span>LARGE LANGUAGE MODELS</span><i aria-hidden="true">✳</i><span>MISINFORMATION</span></div>
-
-      <section id="about" class="about">
-        <p class="eyebrow">A LITTLE BACKGROUND</p>
-        <h2>Hi, I'm Hongyi.</h2>
-        <p>I'm at <strong>Zhejiang University</strong>, in the <strong>CADIDG group</strong> of the <strong>CAD Lab</strong>, advised by <strong>Prof. Yingcai Wu</strong>.</p>
-        <p>My research interests lie in natural language processing and large language models, with a focus on misinformation generation, misinformation detection, and fact verification.</p>
-        <p class="highlight-note">The question that keeps me curious: how do we tell whether a model is getting better — or just getting better at fooling the test?</p>
+      <section class="intro section-grid" id="about">
+        <div class="section-label"><span>01</span><span>ABOUT</span></div>
+        <div class="section-content">
+          <p class="section-kicker">A RESEARCHER AT THE INTERSECTION OF LANGUAGE AND THE WEB</p>
+          <h2>Hi, I'm Hongyi.</h2>
+          <div class="about-columns">
+            <p>I'm a Ph.D. candidate in Computer Science at <strong>Zhejiang University</strong>, working with the <strong>CADIDG group</strong> at the <strong>CAD Lab</strong>, advised by <strong>Prof. Yingcai Wu</strong>.</p>
+            <p>My work explores how misinformation is generated, transformed, retrieved, and evaluated — and how language technologies can help build more trustworthy online information environments. I am particularly interested in social media information integrity and content safety.</p>
+          </div>
+          <div class="research-principle"><span class="principle-mark">“</span><p>How can we tell whether information is becoming more reliable — or simply more convincing?</p></div>
+        </div>
       </section>
 
-      <section id="research" class="research">
-        <div class="section-heading"><div><p class="eyebrow">PAPERS & ONGOING WORK</p><h2>Follow the evidence.</h2></div><span class="year">2026</span></div>
-        <article class="paper">
-          <div class="paper-meta"><span>01 / PREPRINT</span><span class="tag">PUBLICLY AVAILABLE</span></div>
-          <h3><a href="https://arxiv.org/abs/2604.07967">AtomEval: Validity-Aware Atomic Evaluation of Adversarial Claim Rewriting in Fact Verification</a></h3>
-          <p class="authors"><strong>Hongyi Cen</strong>, Mingxin Wang, Yule Liu, Jingyi Zheng, Hanze Jia, Tan Tang</p>
-          <p class="paper-question">Did it fool the verifier,<br>or did it change the claim?</p>
-          <p class="paper-summary">AtomEval checks whether adversarial rewrites preserve the original false proposition, separating valid verifier evasion from proposition-changing rewrites.</p>
-          <div class="claim-diagram" role="img" aria-label="An adversarial rewrite must satisfy both proposition preservation and verifier evasion to count as a valid success."><span>Original claim</span><b aria-hidden="true">→</b><span>Adversarial rewrite</span><b aria-hidden="true">→</b><span class="gate">Preserved?<br><small>THEN CHECK EVASION</small></span></div>
-          <div class="paper-links"><a class="paper-button" href="https://arxiv.org/abs/2604.07967">Read the paper ↗</a><a href="https://arxiv.org/pdf/2604.07967">PDF ↗</a><button id="bib-toggle" type="button" aria-expanded="false" aria-controls="bibtex">BibTeX +</button></div>
-          <div id="bibtex" hidden><pre><code>@misc{cen2026atomeval,
+      <section class="research section-grid" id="research">
+        <div class="section-label"><span>02</span><span>RESEARCH</span></div>
+        <div class="section-content">
+          <p class="section-kicker">QUESTIONS THAT GUIDE MY WORK</p>
+          <h2>From claims to<br>information ecosystems.</h2>
+          <p class="section-intro">I approach information integrity across the lifecycle of online content: how claims are formed, how evidence is surfaced, and how trustworthy information can be evaluated.</p>
+          <div class="research-grid">
+            <article class="research-card">
+              <span class="card-number">01 / CLAIMS</span>
+              <div class="card-symbol symbol-claims" aria-hidden="true"><span></span><span></span><span></span></div>
+              <h3>Misinformation &<br>Fact Verification</h3>
+              <p>Evaluating adversarial claim rewriting, proposition preservation, and the reliability of automated fact verification.</p>
+              <div class="card-tags"><span>Evaluation</span><span>Fact-checking</span></div>
+            </article>
+            <article class="research-card">
+              <span class="card-number">02 / PLATFORMS</span>
+              <div class="card-symbol symbol-platforms" aria-hidden="true"><span></span><span></span><span></span><span></span></div>
+              <h3>Social Media<br>Information Integrity</h3>
+              <p>Understanding misinformation, content credibility, and information quality in large-scale online social environments.</p>
+              <div class="card-tags"><span>Content Safety</span><span>Information Quality</span></div>
+            </article>
+            <article class="research-card">
+              <span class="card-number">03 / EVIDENCE</span>
+              <div class="card-symbol symbol-evidence" aria-hidden="true"><span></span><span></span><span></span></div>
+              <h3>Trustworthy NLP &<br>Multilingual Retrieval</h3>
+              <p>Studying evidence selection, cross-lingual retrieval, and security risks in retrieval-augmented language systems.</p>
+              <div class="card-tags"><span>Trustworthy AI</span><span>RAG Security</span></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="publications section-grid" id="publications">
+        <div class="section-label"><span>03</span><span>PUBLICATIONS</span></div>
+        <div class="section-content">
+          <p class="section-kicker">SELECTED RESEARCH OUTPUT</p>
+          <h2>Work in progress.</h2>
+          <article class="publication-card">
+            <div class="publication-top"><span class="publication-year">2026</span><span class="publication-status"><i></i> PREPRINT</span></div>
+            <h3><a href="https://arxiv.org/abs/2604.07967" target="_blank" rel="noreferrer">AtomEval: Validity-Aware Atomic Evaluation of Adversarial Claim Rewriting in Fact Verification <span aria-hidden="true">↗</span></a></h3>
+            <p class="authors"><strong>Hongyi Cen</strong>, Mingxin Wang, Yule Liu, Jingyi Zheng, Hanze Jia, Tan Tang</p>
+            <p class="publication-summary">Did an adversarial rewrite fool the verifier, or did it change the claim? AtomEval checks whether rewritten claims preserve the original proposition before measuring verifier evasion.</p>
+            <div class="publication-bottom"><span>ARXIV: 2604.07967</span><div><a href="https://arxiv.org/abs/2604.07967" target="_blank" rel="noreferrer">Abstract ↗</a><a href="https://arxiv.org/pdf/2604.07967" target="_blank" rel="noreferrer">PDF ↗</a><button id="bib-toggle" type="button" aria-expanded="false" aria-controls="bibtex">BibTeX +</button></div></div>
+            <div id="bibtex" class="bibtex-panel" hidden><pre><code>@misc{cen2026atomeval,
   title={AtomEval: Validity-Aware Atomic Evaluation of Adversarial Claim Rewriting in Fact Verification},
   author={Hongyi Cen and Mingxin Wang and Yule Liu and Jingyi Zheng and Hanze Jia and Tan Tang},
   year={2026},
@@ -61,14 +139,32 @@
   archivePrefix={arXiv},
   primaryClass={cs.CL},
   url={https://arxiv.org/abs/2604.07967}
-}</code></pre><button id="copy-bib" type="button">Copy citation</button><span id="copy-status" role="status"></span></div>
-        </article>
-        <article class="upcoming"><div><p class="eyebrow">02 / MANUSCRIPT SUBMITTED</p><h3>Another piece of the puzzle.</h3><p>A second research project. More details when the work is public.</p></div><span class="coming">STAY<br>TUNED <span aria-hidden="true">↗</span></span></article>
+}</code></pre><button id="copy-bib" type="button">Copy BibTeX</button><span id="copy-status" role="status" aria-live="polite"></span></div>
+          </article>
+          <article class="under-review">
+            <div><span class="publication-year">2026</span><span class="publication-status muted-status"><i></i> MANUSCRIPT SUBMITTED</span></div>
+            <h3>Multilingual RAG security</h3>
+            <p>A second project studies how language allocation can shape evidence retrieval and how retrieval systems can be made more robust. Further details will be added when the work is public.</p>
+          </article>
+        </div>
       </section>
 
-      <section id="contact" class="contact"><span class="contact-star" aria-hidden="true">✳</span><p class="eyebrow">THE INTERNET IS A SMALL PLACE</p><h2>Let's compare notes.</h2><p>Interested in NLP, LLMs, or misinformation research?<br>Find me on GitHub.</p><a class="big-button" href="https://github.com/JinanRex">SAY HELLO ON GITHUB ↗</a></section>
+      <section class="contact section-grid" id="contact">
+        <div class="section-label"><span>04</span><span>CONTACT</span></div>
+        <div class="section-content contact-content">
+          <p class="section-kicker">OPEN TO RESEARCH CONVERSATIONS</p>
+          <h2>Let's make the<br>social web more trustworthy.</h2>
+          <p>Interested in misinformation, information integrity, content safety, or trustworthy AI? I'd be glad to connect.</p>
+          <a class="button button-primary" href="https://github.com/JinanRex" target="_blank" rel="noreferrer">Find me on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+      </section>
     </main>
-    <footer><div><strong>Hongyi Cen</strong><span>Zhejiang University · CAD Lab · CADIDG</span></div><p>Made with curiosity & a soft spot for the old web.<br><span>A personal homepage. Not an official university website.</span></p><a href="#name">Back to top ↑</a></footer>
+
+    <footer class="site-footer">
+      <a class="wordmark footer-wordmark" href="#top"><span class="wordmark-mark">HC</span><span>HONGYI CEN</span></a>
+      <p>Zhejiang University · CAD Lab · CADIDG<br><span>Personal academic homepage · Not an official university website</span></p>
+      <a class="back-top" href="#top">BACK TO TOP ↑</a>
+    </footer>
   </div>
 </body>
 </html>
